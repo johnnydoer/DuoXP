@@ -12,19 +12,6 @@ from keys import username, password
 class Duolingo:
     def __init__(self):
         self.driver = webdriver.Chrome()# Selenium imports.
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.common.exceptions import ElementClickInterceptedException, NoSuchElementException, StaleElementReferenceException
-
-# Other imports.
-import time
-from keys import username, password
-# Class for learning OOP
-
-
-class Duolingo:
-    def __init__(self):
-        self.driver = webdriver.Chrome()
         chrome_options = webdriver.ChromeOptions()
 
         # Comment the line below to switch OFF incognito mode.
